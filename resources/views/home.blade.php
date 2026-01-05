@@ -18,6 +18,16 @@
 
                     You are logged in!
                 </div>
+
+                <div class="card-body">
+                    {{ dump(Auth::user()) }}
+                </div>
+
+                <div class="card-body">
+                    <div>Nombre: {{ Auth::user()->name }}</div>
+                    <div>Perfil: {{ Auth::user()->role }}</div>
+                </div>
+
             </div>
         </div>
     </div>
