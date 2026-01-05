@@ -15,7 +15,7 @@
 
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
-                <li class="nav-link">test@test.com (pakobarea)</li>
+                <li class="nav-link">tmckenzie@example.net (password)</li>
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
